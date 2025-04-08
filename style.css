@@ -1,0 +1,52 @@
+/* Cores base */
+:root {
+    --roxo: #8A2BE2;
+    --azul-escuro: #1E1E2D;
+    --preto: #0A0A0A;
+    --branco: #F5F5F5;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: var(--preto);
+    padding: 1rem;
+}
+
+.logo {
+    color: var(--roxo);
+    font-weight: bold;
+}
+
+/* Seção Sobre */
+#sobre {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid var(--roxo);
+}
+
+/* Efeitos */
+.btn:hover {
+    background-color: var(--roxo);
+    transform: scale(1.05);
+}
+
+cabecalho {
+    
+    align-items: center;
+    justify-content: center;
+
+}
